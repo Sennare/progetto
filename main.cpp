@@ -1,12 +1,10 @@
-#include <QApplication>
-#include <mainscreen.h>
+#include <application.h>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
- QApplication app (argc, argv);
+ Application app (&argc, &argv);
 
- MainScreen mainScreen;
- mainScreen.show();
+ app.initialize();
 
  return app.exec();
 }

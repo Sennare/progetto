@@ -7,7 +7,13 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 SOURCES += \
     main.cpp \
-    mainscreen.cpp
+    models/model.cpp \
+    views/view.cpp \
+    controllers/controller.cpp \
+    application.cpp
 
 HEADERS += \
-    mainscreen.h
+    models/model.h \
+    views/view.h \
+    controllers/controller.h \
+    application.h
