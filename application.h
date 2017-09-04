@@ -17,8 +17,9 @@ private:
     QApplication qAppl;
 
 public:
-    // Stroz
-    QPushButton *butt;
+    // Stroz ---------------------
+
+    // Fine stroz ----------------
 
     /*
      * Application
